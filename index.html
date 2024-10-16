@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Baseer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--header-->
+        <header id="header">
+           <!-- <a herf="#"class="logo">LOGO<span>.</span></a> --> 
+            <a href="#">
+                <img src="images\logow.png" alt="Logo" class="logo" width="170">
+            </a>
+            <ul>
+                <li><a href="#banner" onclick="toggle()">Home</a></li>
+                <li><a href="#about" onclick="toggle()">About</a></li>
+                <li><a href="#servise" onclick="toggle()">Servise</a></li>
+             
+                <li><a href="#team" onclick="toggle()">Team</a></li>
+                <li><a href="#contact" onclick="toggle()">Contact</a></li>
+                <li><a href="https://baseer.my.canva.site/" class="round-button">Try demo</a></li>
+            </ul>
+            <div class="toggle" onclick="toggle();"></div>
+        </header>
+
+        <!--banner-->
+        <section class="banner" id="banner">
+            <h4> Baseer <br><br> 
+            <span> Smart</span>  and <span> safe </span>  way to manage your finances </h4>
+
+        </section>
+
+        <!--about-->
+        <section class="about" id="about">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Who We Are</h3>
+                    <p> BASEER revolutionizes financial auditing by securely tracking invoices, 
+                        comparing them with the general ledger, 
+                        generating detailed financial reports and risk assessments with AI-powered insights, 
+                        and using blockchain to detect and prevent fraud, offering businesses a smarter, 
+                        safer way to manage their finances.</p>
+                    <a href="#" class="btn">Read Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!--servise-->
+        <section class="about ser" id="servise">
+          
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Our Servises</h3>
+                    <p>At Basir, we are determined to audit documents with smart and secure solutions.
+                        .</p>
+                </div>
+                <div class="servise">
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/comp.png">
+                        </div>
+                        <div class="content">
+                            <h2>Document Reconciliation</h2>
+                            <p> Ensures the transactions recorded in the general ledger match the supporting documentation, 
+                                such as invoices, receipts, and bank statements
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/pred.png">
+                        </div>
+                        <div class="content">
+                            <h2>Audit opinion prediction</h2>
+                            <p>Predict the type of audit opinion using AI and ML to assist auditors in making decisions regarding a company's financial statements
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/analysiss.png">
+                        </div>
+                        <div class="content">
+                            <h2>Document Analysis</h2>
+                            <p>Analyze the documents after the reconciliation process and generate reports and charts to support decision-making.
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/risk.png">
+                        </div>
+                        <div class="content">
+                            <h2>Determined Risk and Compliance Review</h2>
+                            <p>Identifying the risk levels in accounting and ensuring documents meet IAS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </section>
+
+        
+        <!--stats
+        <section class="about state" id="stats">
+            <div class="content">
+                <div class="mxw800p">
+                   
+         
+            </div>
+        </section>-->
+
+        <!--team-->
+        <section class="about team" id="team">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Our Team</h3>
+                    
+                </div >
+                <div class="teamBx">
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="images/hebah.png">
+                        </div>
+                        <div class="details">
+                            <h2>Hebah Omer<br><span>AI specialist</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="images/2.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="images/3.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="images/4.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section class="about contact" id="contact">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Send Us A Message</h3>
+                        </p>
+                    
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <div class="row100">
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Full Name">
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                               <input type="submit" name="" value="Send">
+                            </div>
+                        </div>
+                        
+
+                    </form>
+                </div>
+                <div class="sci">
+                    <ul>
+                        <li><a href="#"><img src="images/facebook.png"></a></li>
+                        <li><a href="#"><img src="images/twitter.png"></a></li>
+                        <li><a href="#"><img src="images/linkedin.png"></a></li>
+                    </ul>
+
+                </div>
+                <p class="copyrights">Baseer 2024</p>
+
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header=document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY > 0)
+            })
+            function toggle(){
+                var header=document.querySelector("header");
+                header.classList.toggle("active");
+            }
+
+
+        </script>
+    </body>
+</html>
